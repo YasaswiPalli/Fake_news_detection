@@ -38,7 +38,7 @@ Try the app live: [Fake News Detector Web App](https://your-app-link.com)
 
 | News Headline                                            | Prediction |
 |----------------------------------------------------------|------------|
-| "NASA Confirms Water on the Moon"                        | Real       |
+| Donald Trump wins the 2016 U.S. presidential election"   | Real       |
 | "Celebrity Endorses Miracle Cure for All Diseases"       | Fake       |
 
 
