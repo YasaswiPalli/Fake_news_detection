@@ -1,52 +1,72 @@
-# 📰 Fake News Detection
+# Fake News Detection
 
-A simple machine learning web app built using **Python**, **Scikit-learn**, and **Streamlit** to detect whether a news headline or article is *Fake* or *Real*.
+## Overview
+This project is focused on detecting fake news using machine learning and natural language processing techniques. It provides a complete pipeline from data preprocessing to model training, evaluation, and deployment. The goal is to help users and organizations identify misinformation in news articles.
 
-![Streamlit Screenshot](https://user-images.githubusercontent.com/your-image-here.png)
+## Features
+- Multiple ML models (e.g., Naive Bayes, SVM, LSTM, BERT)
+- Robust data preprocessing and cleaning
+- Comprehensive model evaluation (accuracy, precision, recall, F1-score)
+- Web app and API deployment options
+- Model explainability with LIME/SHAP
+- Modular and well-organized codebase
+
+## Live Demo
+Try the app live: [Fake News Detector Web App](https://your-app-link.com)
+
+## Screenshots
+
+![Web App Screenshot](app/screenshots/homepage.png)
+
+
+## Dataset Sources
+- [Kaggle: Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+- Additional datasets can be added in the `data/raw/` directory
+
+## Setup Instructions
+1. **Clone the repository**
+    ```
+    git clone https://github.com/YOUR_USERNAME/fake_news_detection.git
+    cd fake_news_detection
+    ```
+2. **Install dependencies**
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Example Predictions
+
+| News Headline                                            | Prediction |
+|----------------------------------------------------------|------------|
+| "NASA Confirms Water on the Moon"                        | Real       |
+| "Celebrity Endorses Miracle Cure for All Diseases"       | Fake       |
+
+
+## Model Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+## Contribution Guidelines
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes
+4. Push to your branch
+5. Open a pull request
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## Acknowledgements
+- [Kaggle](https://www.kaggle.com/) for datasets
+- [scikit-learn](https://scikit-learn.org/), [NLTK](https://www.nltk.org/), [PyTorch](https://pytorch.org/), [Transformers](https://huggingface.co/transformers/) for libraries
 
 ---
 
-## 🚀 Live Demo
+*Feel free to contribute or raise issues. Happy coding!*
 
-Try the app here: [Streamlit Deployment Link](https://your-streamlit-app-link.streamlit.app)
-
----
-
-## 📁 Project Structure
-
-
----
-
-## 🔍 How It Works
-
-1. The app uses a **TF-IDF Vectorizer** to transform the input news text.
-2. A trained **Logistic Regression model** (or any other classifier) then predicts if the news is real or fake.
-3. The result is shown in a clean and interactive Streamlit UI.
-
----
-
-## 🧪 Example Inputs
-
-- ✅ *Real:* `"Donald Trump wins the 2016 U.S. presidential election."`
-- ❌ *Fake:* `"Pope Francis shocks world, endorses Donald Trump for President."`
-
----
-
-## 📦 Installation & Running Locally
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YasaswiPalli/Fake_news_detection.git
-cd Fake_news_detection
-
-# 2. (Optional) Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate  # On Windows
-
-# 3. Install required libraries
-pip install -r requirements.txt
-
-# 4. Run the app
-streamlit run app.py
-
-pip install -r requirements.txt
