@@ -4,11 +4,10 @@
 This project is focused on detecting fake news using machine learning and natural language processing techniques. It provides a complete pipeline from data preprocessing to model training, evaluation, and deployment. The goal is to help users and organizations identify misinformation in news articles.
 
 ## Features
-- Multiple ML models (e.g., Naive Bayes, SVM, LSTM, BERT)
+- Multiple ML models (e.g., Naive Bayes,Support Vector Machine (SVM),Logistic Regression,Random Forest)
 - Robust data preprocessing and cleaning
 - Comprehensive model evaluation (accuracy, precision, recall, F1-score)
 - Web app and API deployment options
-- Model explainability with LIME/SHAP
 - Modular and well-organized codebase
 
 ## Live Demo
