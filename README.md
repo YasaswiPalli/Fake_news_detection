@@ -13,10 +13,6 @@ This project is focused on detecting fake news using machine learning and natura
 ## Live Demo
 Try the app live: [Fake News Detector Web App](https://fakenewsdetection-qqs6pgnxpf8jgfvtha4xgz.streamlit.app/))
 
-## Screenshots
-
-![Web App Screenshot](app/screenshots/homepage.png)
-
 
 ## Dataset Sources
 - [Kaggle: Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
