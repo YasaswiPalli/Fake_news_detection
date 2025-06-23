@@ -11,7 +11,7 @@ This project is focused on detecting fake news using machine learning and natura
 - Modular and well-organized codebase
 
 ## Live Demo
-Try the app live: [Fake News Detector Web App]([https://your-app-link.com](https://fakenewsdetection-qqs6pgnxpf8jgfvtha4xgz.streamlit.app/))
+Try the app live: [Fake News Detector Web App](https://fakenewsdetection-qqs6pgnxpf8jgfvtha4xgz.streamlit.app/))
 
 ## Screenshots
 
